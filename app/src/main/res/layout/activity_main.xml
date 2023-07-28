@@ -28,4 +28,18 @@
         android:text="Generate"
         android:textSize="25sp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_generate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="150dp"
+        android:gravity="center"
+        android:text="By Akshit Rao"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp">
+
+    </TextView>
+
 </RelativeLayout>
