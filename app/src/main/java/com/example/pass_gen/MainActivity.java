@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public String GetPassword(int length){
-        char[] chars = "ABCDEFGHIKLMNOPRSTUVWYabcdefhijkmnoprstuwxy012349".toCharArray();
+        char[] chars = "ABCDEFGHIKLMNOPRSTUVWYabcdefhijkmnoprstuwxy012349@#!*&".toCharArray();
         StringBuilder stringBuilder = new StringBuilder();
 
         Random rand = new Random();
